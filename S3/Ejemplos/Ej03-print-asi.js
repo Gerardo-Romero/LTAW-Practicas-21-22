@@ -2,6 +2,8 @@ const http = require('http');
 
 const PUERTO = 8080;
 
+console.log("MENSAJE X");
+
 //-- SERVIDOR: Bucle principal de atención a clientes
 const server = http.createServer((req, res) => {
 
